@@ -1,0 +1,36 @@
+program calculate
+implicit none
+real :: choice
+integer :: x,y,answer
+
+print *,'Choose an option'
+print *,'1 Multiplication'
+print *,'2 Division'
+print *,'3 Addition'
+print *,'4 Subtraction'
+x=9.0
+y=5.0
+read *,choice
+
+if (choice == 1) then
+answer = x*y
+print *, answer
+
+
+end if
+if (choice == 2) then 
+answer = x/y
+print *, answer
+
+end if
+if (choice == 3) then
+answer = x+y
+print *, answer
+
+end if
+if (choice == 4) then
+answer = x-y
+print *, answer
+
+end if
+end program calculate
