@@ -15,23 +15,18 @@ read *,choice
 
 if (choice == 1) then
 answer = x*y
-print *, answer
-
 
 end if
 if (choice == 2) then 
 answer = x/y
-print *, answer
 
 end if
 if (choice == 3) then
 answer = x+y
-print *, answer
 
 end if
 if (choice == 4) then
-answer = x-y
-print *, answer
+answer = x-y 
 
 end if
 end program calculate
