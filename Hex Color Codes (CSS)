@@ -1,0 +1,62 @@
+<!--PRACTICING CSS-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Page Title</title>
+	</head>
+  <style>
+  
+  body {
+    color:white;
+    font-family: Arial Helvetica;
+    font-size:70px;
+}
+
+.one {
+    padding:50px;
+    margin-bottom:-30px;
+    background-color:#FCF73F;
+}
+
+.two {
+    padding:20px;
+    background-color:#FD7200;
+}
+
+.three {
+    padding:20px;
+    background-color:#BFFD00;
+}
+
+.four {
+    padding:20px;
+    background-color:#64FD00;
+}
+
+.five {
+    padding:20px;
+    background-color:#54FFF9;
+}
+
+.six {
+    padding:20px;
+    background-color:#B76DF5;
+}
+
+.seven {
+    padding:20px;
+    background-color:#FF3232;
+}
+  </style>
+	<body align="center">
+	    
+	    <div class="one">#FCF73F</div>
+	     <div class="two">#FD7200</div>
+	      <div class="three">#BFFD00</div>
+	       <div class="four">#64FD00</div>
+	        <div class="five">#54FFF9</div>
+	         <div class="six">#B76DF5</div>
+	          <div class="seven">HEX COLOR CODES #FF3232  </div>
+		
+	</body>
+</html>
