@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Page Title</title>
+	</head>
+  <style>
+  .first {
+    padding:80px;
+    background-color:#FF00AC;
+}
+
+.second {
+    padding:70px;
+    background-color:#FF00FE;
+}
+
+
+.third {
+    padding:60px;
+    background-color:#D433FC;
+}
+
+.fourth {
+    padding:50px;
+    background-color:#C24AFE  ;
+}
+
+.fifth {
+    padding:40px;
+    background-color:#00FFF2;
+}
+.sixth {
+    padding:30px;
+    background-color:#00FF37;
+}
+
+.seventh {
+    padding:20px;
+    background-color:#D6FF00;
+}
+
+.eighth {
+    padding:10px;
+    background-color:#FDFF00;
+}
+  </style>
+	<body>
+		
+		<div class="first"></div>
+		<div class="second"></div>
+		<div class="fourth"></div>
+		<div class="fifth"></div>
+		<div class="sixth"></div>
+		<div class="seventh"></div>
+		<div class="eighth"></div>
+		
+	</body>
+</html>
