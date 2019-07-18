@@ -1,0 +1,109 @@
+<!--modified styles-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>leptons and quarks</title>
+        <style>
+        body {
+    background-color:white;
+    color:white;
+}
+
+
+h1 {
+    padding: 20px;
+    font-size:50px;
+}
+
+caption {
+    background-color:#FF00CE;
+    padding:10px;
+    font-size:30px;
+}
+
+td {
+    background-color:#B96CFE;
+    padding:10px;
+    font-size:20px;
+}
+
+
+footer {
+   color:black;
+}
+        </style>
+    </head>
+    <body>
+    
+    <h1 style="background-color:#FF00CE"    
+        align="center">
+        Elementary Particles
+    </h1>
+    
+   
+   
+    <br>
+    <br>
+    <br>
+    
+   
+        <table align="center" border="0">
+        <thead>
+        <caption>
+                  Quarks
+        </caption>
+            
+            <tr align="center">
+                <td>up</td>
+                <td>charm</td>
+                <td>top</td>
+            </tr>
+            <tr>
+                <td>down</td>
+                <td>strange</td>
+                <td>bottom</td>
+            </tr>
+            </table>
+            
+            <br>
+            <br>
+            <br>
+            <br>
+            
+            <table 
+            align="center" 
+            border="0">
+            <thead>
+                <caption>
+                    Leptons
+                </caption>
+            </thead>
+            <tr align="center">
+                <td>electron</td>
+                <td>muon</td>
+                <td>tau</td>
+            </tr>
+            <tr align="center">
+                <td>electron neutrino</td>
+                <td>muon neutrino</td>
+                <td>tau neutrino</td>
+            </tr>
+        </table>
+    </body>
+    <br />
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <div 
+   
+        class="rect" >
+       
+   </div>
+    
+    <footer align="center">
+        &copy; shivani
+    </footer>
+</html>
