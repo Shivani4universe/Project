@@ -16,8 +16,6 @@ td {
     padding: 10px;
     background-color:#f7037c;
     font-size:50px;
-    border-color:white;
-
 }
 
 p {
