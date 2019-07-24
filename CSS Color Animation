@@ -13,8 +13,8 @@
         
         .box {
          background-color: white;
-         width: 350px;
-         height: 350px;
+         width: 300px;
+         height: 550px;
          position: relative;
          animation-name: colors;
          animation-duration: 5s;
@@ -23,12 +23,12 @@
         }
          
          @keyframes colors {
-          0%{background-color:white; border-radius: 0 0 0 0;}
-          20%{background-color:#F7FD0B; border-radius: 50% 50% 50% 50%;}
-          40%{background-color:#7FFE00; border-radius: 0 0 0 0;}
-          60%{background-color:#FE009E; border-radius: 50% 50% 50% 50%;}
-          80%{background-color:#FF0010; border-radius: 0 0 0 0;}
-          100%{background-color:white; border-radius: 0 0 0 0;}
+          0%{background-color:white;}
+          20%{background-color:#F7FD0B;}
+          40%{background-color:#7FFE00;}
+          60%{background-color:#FE009E;}
+          80%{background-color:#FF0010;}
+          100%{background-color:white;}
          }
          
     </style>
