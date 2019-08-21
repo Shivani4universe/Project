@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head></head>
+<body>
+
+<p> What would you use to find a number’s square root, as well as its square?
+<!--Python Code below --> 
+import math
+a = math.sqrt(2)
+print (a*a)
+print (a)
+</p>
+
+<p>
+Given the string 'hello' give an index command that returns 'e'.
+s[1]
+
+</p>
+Reverse the string 'hello' using slicing:
+s[::-1]
+<p>
+Given the string hello, give two methods of producing the letter 'o' using indexing.
+s[4]
+s[-1]
+</p>
+
+<p>
+Build this list [0,0,0] two separate ways.
+list3 = [1, 2, [3, 4, 'hello']]
+</p>
+
+<p>
+Reassign 'hello' in this nested list to say 'goodbye' instead:
+list3[2][2] = 'goodbye'
+</p>
+<p>
+Sort the list below:
+list4 = [5,3,4,6,1]
+list4.sort()
+</p>
+
+<p>
+Using keys and indexing, grab the 'hello' from the following dictionaries:
+
+d = {'simple_key':'hello'}
+# Grab 'hello'
+d ['simple_key']
+
+d = {'k1':{'k2':'hello'}}
+# Grab 'hello'
+d['k1']['k2']
+
+# Getting a little tricker
+d = {'k1':[{'nest_key':['this is deep',['hello']]}]}
+d['k1'][0]['nest_key'][1][0]
+
+#Grab hello
+
+# This will be hard and annoying!
+d = {'k1':[1,2,{'k2':['this is tricky',{'tough':[1,2,['hello']]}]}]}
+d['k1'][2]['k2'][1]['tough'][2][0]
+
+</p>
+
+</body>
+</html>
